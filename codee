@@ -1,3 +1,4 @@
+#Analyze Breast Cancer on Wisconsin (Diagnostic) Data Set
 import numpy
 from tensorflow import keras
 max_review_length = 1600
