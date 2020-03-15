@@ -1,8 +1,7 @@
-#Analyze Breast Cancer on Wisconsin (Diagnostic) Data Set
 import numpy
 from tensorflow import keras
-max_review_length = 1600
-top_words = 10000
+max_review_length = 1500
+top_words = 11000
 
 
 # Using keras to load the dataset with the top_words
@@ -20,7 +19,7 @@ def preprocess_data(X_train, X_test):
 
 def create_model():
     # Using embedding from Keras
-    embedding_vecor_length = 300
+    embedding_vecor_length = 250
     model = keras.models.Sequential()
     model.add(keras.layers.Embedding(top_words, embedding_vecor_length, input_length=max_review_length))
 
