@@ -1,7 +1,7 @@
 import numpy
 from tensorflow import keras
-max_review_length = 1600
-top_words = 10000
+max_review_length = 1000
+top_words = 800
 
 
 # Using keras to load the dataset with the top_words
