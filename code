@@ -1,3 +1,4 @@
+#pattern recognition
 import numpy
 from tensorflow import keras
 max_review_length = 1000
